@@ -1,22 +1,22 @@
 <br />
 <p align="center">
-  <a href="https://github.com/rmenai-blueprints/base">
-    <img src="https://cdn-icons-png.flaticon.com/512/581/581600.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/rmenai-blueprints/angular">
+    <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">Base</h3>
+<h3 align="center">Angular</h3>
 
   <p align="center">
-    The base of all my project templates
+    The modern web developer's platform
     <br />
-    <a href="https://github.com/rmenai-blueprints/base"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/rmenai-blueprints/angular"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/rmenai-blueprints/base">View Demo</a>
+    <a href="https://github.com/rmenai-blueprints/angular">View Demo</a>
     ·
-    <a href="https://github.com/rmenai-blueprints/base/issues/new?assignees=&labels=&template=bug_report.md&title=">Report Bug</a>
+    <a href="https://github.com/rmenai-blueprints/angular/issues/new?assignees=&labels=&template=bug_report.md&title=">Report Bug</a>
     ·
-    <a href="https://github.com/rmenai-blueprints/base/issues/new?assignees=&labels=&template=feature_request.md&title=">Request Feature</a>
+    <a href="https://github.com/rmenai-blueprints/angular/issues/new?assignees=&labels=&template=feature_request.md&title=">Request Feature</a>
   </p>
 
 <!-- TABLE OF CONTENTS -->
@@ -43,7 +43,8 @@
 
 ## About The Project
 
-This is the base template for all my templates.
+This is the template I use when creating personal websites with Angular.
+It is pretty much complete, containing all the tools you need for a professional website.
 
 <!-- Usage -->
 
@@ -57,9 +58,6 @@ will change all the files to match your repository.
 ## Features
 
 ### GitHub:
-* [Lint & Test](https://github.com/rmenai/python-structure/blob/main/.github/workflows/validate.yaml)
-  and [Build & Push](https://github.com/rmenai/python-structure/blob/main/.github/workflows/build-push.yaml) GitHub
-  workflows.
 * [Issues](https://github.com/rmenai/python-structure/tree/main/.github/ISSUE_TEMPLATE)
   and [pull requests](https://github.com/rmenai/python-structure/blob/main/.github/pull_request_template.md) templates.
 
@@ -67,13 +65,13 @@ will change all the files to match your repository.
 
 ## Contributing
 
-See [CONTRIBUTING.md](https://github.com/rmenai-blueprints/base/blob/main/CONTRIBUTING.md) for ways to get started.
+See [CONTRIBUTING.md](https://github.com/rmenai-blueprints/angular/blob/main/CONTRIBUTING.md) for ways to get started.
 
 <!-- LICENSE -->
 
 ## License
 
-Distributed under the MIT License. See [LICENSE](https://github.com/rmenai-blueprints/base/blob/main/LICENSE) for more
+Distributed under the MIT License. See [LICENSE](https://github.com/rmenai-blueprints/angular/blob/main/LICENSE) for more
 information.
 
 <!-- CONTACT -->
