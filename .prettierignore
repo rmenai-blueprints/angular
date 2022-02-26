@@ -20,16 +20,9 @@ yarn-error.log
 
 # Visual Studio Code
 .vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-.history/*
 
 # WebStorm
-.idea/shelf/
-.idea/workspace.xml
-.idea/httpRequests/
+.idea/*
 
 # Miscellaneous
 /.angular/cache
@@ -41,8 +34,4 @@ testem.log
 /typings
 
 # System files
-.DS_Store
 Thumbs.db
-
-# Eslint
-.eslintcache

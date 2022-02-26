@@ -1,7 +1,7 @@
 ## Types of changes
 
 What types of changes does your code introduce?
-*Put an `x` in the boxes that apply.*
+_Put an `x` in the boxes that apply._
 
 - [ ] Bugfix (non-breaking change which fixes an issue)
 - [ ] New feature (non-breaking change which adds functionality)
@@ -15,10 +15,10 @@ request, be sure to link to that issue.
 
 ## Checklist
 
-*Put an `x` in the boxes that apply.*
+_Put an `x` in the boxes that apply._
 
 - [ ] I have read and followed
-  the [CONTRIBUTING.md](https://github.com/rmenai-blueprints/angular/blob/main/CONTRIBUTING.md) doc
+      the [CONTRIBUTING.md](https://github.com/rmenai-blueprints/angular/blob/main/CONTRIBUTING.md) doc
 - [ ] Lint and unit tests pass locally with my changes
 - [ ] I have added necessary documentation (if appropriate)
 

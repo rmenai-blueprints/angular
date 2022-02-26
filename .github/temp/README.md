@@ -41,14 +41,11 @@
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
 
 {description}.
-
 
 <!-- INSTALLATION -->
 
@@ -64,7 +61,7 @@ git clone https://github.com/{repo}.git
 
 The requirements are:
 
-* [...]()
+- [...]()
 
 1. Install the dependencies
    ```shell
@@ -76,15 +73,14 @@ The requirements are:
 To run this project, you will need to add the following environment variables.
 
 | Variable | Description | Default |
-|----------|-------------|---------|
+| -------- | ----------- | ------- |
 | ...      | ...         | ...     |
-
 
 <!-- USAGE EXAMPLES -->
 
 ## Usage
 
-Now you are done! You can run the project using 
+Now you are done! You can run the project using
 
 ```shell
 ...
