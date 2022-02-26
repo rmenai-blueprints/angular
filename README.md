@@ -58,8 +58,8 @@ will change all the files to match your repository.
 ## Features
 
 ### GitHub:
-* [Issues](https://github.com/rmenai/python-structure/tree/main/.github/ISSUE_TEMPLATE)
-  and [pull requests](https://github.com/rmenai/python-structure/blob/main/.github/pull_request_template.md) templates.
+* [Issues](https://github.com/rmenai-blueprints/angular/tree/main/.github/ISSUE_TEMPLATE)
+  and [pull requests](https://github.com/rmenai-blueprints/angular/blob/main/.github/pull_request_template.md) templates.
 
 <!-- CONTRIBUTING -->
 
