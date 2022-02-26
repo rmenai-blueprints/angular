@@ -55,10 +55,27 @@ will change all the files to match your repository.
 
 ## Features
 
+### Project:
+
+- [Angular CLI](https://cli.angular.io/) for building the project.
+- [Typescript](https://www.typescriptlang.org/) for writing efficient code.
+- [ESLint](https://eslint.org/) and [Prettier](https://prettier.io/) for code formatting.
+- [Husky](https://typicode.github.io/husky/) for pre-commit hooks.
+- [Jasmine](https://jasmine.github.io/) and [Karma](https://karma-runner.github.io/) for testing.
+- [Scss](https://sass-lang.com/) and [TailwindCSS](https://tailwindcss.com/) for writing efficient CSS.
+
 ### GitHub:
+
+- [Test](https://github.com/rmenai-blueprints/angular/blob/main/.github/workflows/test.yaml),
+  [Build](https://github.com/rmenai-blueprints/angular/blob/main/.github/workflows/build.yaml) and
+  [Deploy](https://github.com/rmenai-blueprints/angular/blob/main/.github/workflows/deploy.yaml) GitHub workflows.
 
 - [Issues](https://github.com/rmenai-blueprints/angular/tree/main/.github/ISSUE_TEMPLATE)
   and [pull requests](https://github.com/rmenai-blueprints/angular/blob/main/.github/pull_request_template.md) templates.
+
+### Other:
+
+- [VsCode](https://code.visualstudio.com/) and [WebStorm](https://www.jetbrains.com/webstorm/) settings for code editing.
 
 <!-- CONTRIBUTING -->
 
