@@ -38,6 +38,12 @@ jobs:
       - name: Build the project
         run: npm run build
 
+      - name: Deploy the project
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: dist/app/
+
       - name: Zip the project's bundle
         uses: papeloto/action-zip@v1
         with:
@@ -55,11 +61,6 @@ jobs:
         uses: softprops/action-gh-release@v1
         if: ${{ steps.release.outputs.tag }}
         with:
-          tag_name: ${{ steps.tag.outputs.version }}
+          tag_name: ${{ steps.release.outputs.tag }}
           generate_release_notes: true
-
-      - name: Deploy the project
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: dist/app/
+          files: bundle.zip
