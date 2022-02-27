@@ -1,0 +1,56 @@
+name: Deploy
+
+on:
+  workflow_run:
+    workflows: ['Test']
+    branches:
+      - main
+    types:
+      - completed
+
+jobs:
+  deploy:
+    if: github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.event == 'push'
+    name: Build & Deploy
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Node 16
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+          cache: 'npm'
+
+      # Install our dependencies if we did not restore a dependency cache.
+      - name: Install dependencies using npm
+        run: npm ci
+
+      - name: Build the project
+        run: npm run build
+
+      - name: Zip the application bundle
+        uses: papeloto/action-zip@v1
+        with:
+          files: dist/app
+          recursive: false
+          dest: bundle.zip
+
+      - name: Conventional Changelog Action
+        id: changelog
+        uses: TriPSs/conventional-changelog-action@v3
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          output-file: 'false'
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        if: ${{ steps.changelog.outputs.skipped == 'false' }}
+        with:
+          name: ${{ steps.changelog.outputs.tag }}
+          tag_name: ${{ steps.changelog.outputs.tag }}
+          body: ${{ steps.changelog.outputs.clean_changelog }}
+          files: |
+            bundle.zip

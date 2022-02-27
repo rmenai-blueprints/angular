@@ -1,0 +1,55 @@
+name: Test
+
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - 'README.md'
+      - 'SECURITY.md'
+      - 'LICENSE'
+      - 'CONTRIBUTING.md'
+      - 'CODE_OF_CONDUCT.md'
+      - '.gitignore'
+      - '.github/pull_request_template.md'
+      - '.github/ISSUE_TEMPLATE/**'
+      - '.vscode/**'
+      - '.idea/**'
+      - '.husky/**'
+
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    name: Lint & Test
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Node 16
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+          cache: 'npm'
+
+      # Install our dependencies if we did not restore a dependency cache.
+      - name: Install dependencies using npm
+        run: npm ci
+
+      - name: Run linting
+        run: npm run lint
+
+      - name: Run tests with karma
+        run: npm run test:cov
+
+      - name: Upload coverage reports to CodeCov
+        uses: codecov/codecov-action@v2
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
