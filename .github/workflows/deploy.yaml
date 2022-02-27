@@ -16,8 +16,8 @@ on:
 
 jobs:
   deploy:
-    # Make sure the pull request is merged.
-    if: ${{ github.event.pull_request.merged }}
+    # Make sure the pull request is merged or if the input is not empty.
+    if: ${{ github.event.pull_request.merged }} || ${{ github.event.inputs.tag }}
     name: Build & Deploy
     runs-on: ubuntu-latest
 
