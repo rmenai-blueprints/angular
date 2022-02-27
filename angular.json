@@ -83,6 +83,20 @@
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
+          "configurations": {
+            "production": {
+              "sourceMap": false,
+              "codeCoverage": false,
+              "browsers": "ChromeHeadless",
+              "watch": false
+            },
+            "development": {
+              "sourceMap": true,
+              "codeCoverage": false,
+              "browsers": "Chrome",
+              "watch": true
+            }
+          },
           "options": {
             "main": "src/test.ts",
             "polyfills": "src/polyfills.ts",
@@ -92,7 +106,8 @@
             "assets": ["src/favicon.ico", "src/assets"],
             "styles": ["src/styles.scss"],
             "scripts": []
-          }
+          },
+          "defaultConfiguration": "production"
         },
         "lint": {
           "builder": "@angular-eslint/builder:lint",
