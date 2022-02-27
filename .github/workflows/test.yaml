@@ -25,15 +25,6 @@ jobs:
       - name: Install dependencies using npm
         run: npm ci
 
-      - name: Build the project
-        run: npm run build
-
-      - name: Archive build bundle
-        uses: actions/upload-artifact@v2
-        with:
-          name: dist-app
-          path: dist/app/
-
       - name: Run linting
         run: npm run lint
 

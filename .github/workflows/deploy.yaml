@@ -25,10 +25,18 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Download archived build bundle
-        uses: actions/download-artifact@v2
+      - name: Set up Node 16
+        uses: actions/setup-node@v2
         with:
-          name: dist-app
+          node-version: '16.x'
+          cache: 'npm'
+
+      # Install our dependencies if we did not restore a dependency cache.
+      - name: Install dependencies using npm
+        run: npm ci
+
+      - name: Build the project
+        run: npm run build
 
       - name: Zip the project's bundle
         uses: papeloto/action-zip@v1
