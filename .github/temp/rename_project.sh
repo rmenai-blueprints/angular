@@ -55,3 +55,6 @@ sed -i "s/{description}/$description/g" README.md
 sed -i "s|{repo}|$repo|g" README.md # Separator is |
 sed -i "s/{author}/$author/g" README.md
 sed -i "s/{name}/$name/g" README.md
+
+# Delete dependabot.yaml
+rm -f .github/dependabot.yaml
