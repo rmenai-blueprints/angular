@@ -38,16 +38,20 @@ jobs:
       - name: Build the project
         run: yarn run build --base-href /${{ github.event.repository.name }}/
 
+      - name: Get project name
+        if: project
+        run: echo "::set-output name=name::$(cut -d "=" -f 2 <<< $(npm run env | grep "npm_package_name"))"
+
       - name: Deploy the project
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: dist/app/
+          publish_dir: dist/${{ steps.project.outputs.name }}/
 
       - name: Zip the project's bundle
         uses: papeloto/action-zip@v1
         with:
-          files: dist/app/
+          files: dist/${{ steps.project.outputs.name }}/
           dest: bundle.zip
 
       # Parse the tag using the regex `v[0-9].*`.

@@ -21,6 +21,24 @@ title="$(TitleCaseConverter "$title")"
 
 repo="$author/$name"
 
+# Change package.json
+sed -i "s/angular-website/$name/g" package.json
+
+# Change angular.json
+sed -i "s/angular-website/$name/g" angular.json
+
+# Change karma.conf.js
+sed -i "s/angular-website/$name/g" karma.conf.js
+
+# Change src/app/app.component.ts
+sed -i "s/angular-website/$name/g" src/app/app.component.ts
+
+# Change src/app/app.component.spec.ts
+sed -i "s/angular-website/$name/g" src/app/app.component.spec.ts
+
+# Change src/index.html
+sed -i "s/Angular Website/$title/g" src/index.html
+
 # Change LICENSE
 sed -i "s|rmenai-blueprints/angular|$name|g" LICENSE # Separator is |
 
