@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "test:cov": "ng test --code-coverage",
-    "lint": "ng lint && prettier --check './**/*.{js,ts,jsx,tsx,html,css,less,scss,vue,json,md}'",
+    "lint": "ng lint --max-warnings 0 && prettier --check './**/*.{js,ts,jsx,tsx,html,css,less,scss,vue,json,md}'",
     "lint:fix": "ng lint --fix && prettier --write './**/*.{js,ts,jsx,tsx,html,css,less,scss,vue,json,md}'",
     "prepare": "husky install"
   },
