@@ -39,7 +39,7 @@ jobs:
         run: yarn build --base-href /${{ github.event.repository.name }}/
 
       - name: Get project name
-        if: project
+        id: project
         run: echo "::set-output name=name::$(cut -d "=" -f 2 <<< $(npm run env | grep "npm_package_name"))"
 
       - name: Deploy the project
