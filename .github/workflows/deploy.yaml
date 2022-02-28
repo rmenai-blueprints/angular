@@ -33,10 +33,10 @@ jobs:
 
       # Install our dependencies if we did not restore a dependency cache.
       - name: Install dependencies using yarn
-        run: yarn install --frozen-lockfile
+        run: yarn
 
       - name: Build the project
-        run: yarn run build --base-href /${{ github.event.repository.name }}/
+        run: yarn build --base-href /${{ github.event.repository.name }}/
 
       - name: Get project name
         if: project
