@@ -40,10 +40,8 @@
     },
     {
       "files": ["*.html"],
-      "extends": ["plugin:@angular-eslint/template/recommended", "plugin:tailwindcss/recommended"],
-      "rules": {
-        "tailwindcss/no-custom-classname": "off"
-      }
+      "extends": ["plugin:@angular-eslint/template/recommended"],
+      "rules": {}
     }
   ]
 }
