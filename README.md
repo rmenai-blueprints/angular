@@ -12,7 +12,7 @@
     <a href="https://github.com/rmenai-blueprints/angular"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/rmenai-blueprints/angular">View Demo</a>
+    <a href="https://rmenai-blueprints.github.io/angular/">View Demo</a>
     ·
     <a href="https://github.com/rmenai-blueprints/angular/issues/new?assignees=&labels=&template=bug_report.md&title=">Report Bug</a>
     ·
