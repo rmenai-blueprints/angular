@@ -58,6 +58,7 @@ will change all the files to match your repository.
 ### Project:
 
 - [Angular CLI](https://cli.angular.io/) for building the project.
+- [Yarn](https://yarnpkg.com/) for managing dependencies.
 - [Typescript](https://www.typescriptlang.org/) for writing efficient code.
 - [ESLint](https://eslint.org/) and [Prettier](https://prettier.io/) for code formatting.
 - [Husky](https://typicode.github.io/husky/) for pre-commit hooks.

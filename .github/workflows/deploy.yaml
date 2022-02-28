@@ -29,14 +29,14 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: '16.x'
-          cache: 'npm'
+          cache: 'yarn'
 
       # Install our dependencies if we did not restore a dependency cache.
-      - name: Install dependencies using npm
-        run: npm ci
+      - name: Install dependencies using yarn
+        run: yarn install --frozen-lockfile
 
       - name: Build the project
-        run: npm run build -- --base-href /${{ github.event.repository.name }}/
+        run: yarn run build --base-href /${{ github.event.repository.name }}/
 
       - name: Deploy the project
         uses: peaceiris/actions-gh-pages@v3
