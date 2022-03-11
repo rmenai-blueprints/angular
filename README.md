@@ -29,7 +29,9 @@
     <li><a href="#usage">Usage</a></li>
     <li><a href="#features">Features</a></li>
     <ul>
+        <li><a href="#project">Project</a></li>
         <li><a href="#github">Github</a></li>
+        <li><a href="#other">Other</a></li>
       </ul>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
