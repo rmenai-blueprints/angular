@@ -69,8 +69,7 @@ will change all the files to match your repository.
 
 ### GitHub:
 
-- [Test](https://github.com/rmenai-blueprints/angular/blob/main/.github/workflows/test.yaml),
-  [Build](https://github.com/rmenai-blueprints/angular/blob/main/.github/workflows/build.yaml) and
+- [Test](https://github.com/rmenai-blueprints/angular/blob/main/.github/workflows/test.yaml) and
   [Deploy](https://github.com/rmenai-blueprints/angular/blob/main/.github/workflows/deploy.yaml) GitHub workflows.
 
 - [Issues](https://github.com/rmenai-blueprints/angular/tree/main/.github/ISSUE_TEMPLATE)
