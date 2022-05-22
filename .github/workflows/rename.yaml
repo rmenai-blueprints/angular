@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   rename:
-    if: ${{ github.repository != 'rmenai-blueprints/angular' }}
+    if: ${{ github.repository != 'boilercodes/angular' }}
     runs-on: ubuntu-latest
 
     steps:
