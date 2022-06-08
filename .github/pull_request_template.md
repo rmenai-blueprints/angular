@@ -18,7 +18,7 @@ request, be sure to link to that issue.
 _Put an `x` in the boxes that apply._
 
 - [ ] I have read and followed
-      the [CONTRIBUTING.md](https://github.com/rmenai-blueprints/angular/blob/main/CONTRIBUTING.md) doc
+      the [CONTRIBUTING.md](https://github.com/boilercodes/angular/blob/main/CONTRIBUTING.md) doc
 - [ ] Lint and unit tests pass locally with my changes
 - [ ] I have added necessary documentation (if appropriate)
 

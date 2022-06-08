@@ -40,13 +40,13 @@ sed -i "s/angular-website/$name/g" src/app/app.component.spec.ts
 sed -i "s/Angular Website/$title/g" src/index.html
 
 # Change LICENSE
-sed -i "s|rmenai-blueprints/angular|$name|g" LICENSE # Separator is |
+sed -i "s|boilercodes/angular|$name|g" LICENSE # Separator is |
 
 # Change SECURITY.md
 sed -i "s/rmenai/$author/g" SECURITY.md
 
 # Change .github/pull_request_template.md
-sed -i "s|rmenai-blueprints/angular|$repo|g" .github/pull_request_template.md
+sed -i "s|boilercodes/angular|$repo|g" .github/pull_request_template.md
 
 # Change README.md
 cp -f .github/temp/README.md README.md # Override file

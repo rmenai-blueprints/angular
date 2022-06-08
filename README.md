@@ -1,6 +1,6 @@
 <br />
 <p align="center">
-  <a href="https://github.com/rmenai-blueprints/angular">
+  <a href="https://github.com/boilercodes/angular">
     <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="Logo" width="80" height="80">
   </a>
 
@@ -9,14 +9,14 @@
   <p align="center">
     The modern web developer's platform
     <br />
-    <a href="https://github.com/rmenai-blueprints/angular"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/boilercodes/angular"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://rmenai-blueprints.github.io/angular/">View Demo</a>
     ·
-    <a href="https://github.com/rmenai-blueprints/angular/issues/new?assignees=&labels=&template=bug_report.md&title=">Report Bug</a>
+    <a href="https://github.com/boilercodes/angular/issues/new?assignees=&labels=&template=bug_report.md&title=">Report Bug</a>
     ·
-    <a href="https://github.com/rmenai-blueprints/angular/issues/new?assignees=&labels=&template=feature_request.md&title=">Request Feature</a>
+    <a href="https://github.com/boilercodes/angular/issues/new?assignees=&labels=&template=feature_request.md&title=">Request Feature</a>
   </p>
 
 <!-- TABLE OF CONTENTS -->
@@ -69,11 +69,11 @@ will change all the files to match your repository.
 
 ### GitHub:
 
-- [Test](https://github.com/rmenai-blueprints/angular/blob/main/.github/workflows/test.yaml) and
-  [Deploy](https://github.com/rmenai-blueprints/angular/blob/main/.github/workflows/deploy.yaml) GitHub workflows.
+- [Test](https://github.com/boilercodes/angular/blob/main/.github/workflows/test.yaml) and
+  [Deploy](https://github.com/boilercodes/angular/blob/main/.github/workflows/deploy.yaml) GitHub workflows.
 
-- [Issues](https://github.com/rmenai-blueprints/angular/tree/main/.github/ISSUE_TEMPLATE)
-  and [pull requests](https://github.com/rmenai-blueprints/angular/blob/main/.github/pull_request_template.md) templates.
+- [Issues](https://github.com/boilercodes/angular/tree/main/.github/ISSUE_TEMPLATE)
+  and [pull requests](https://github.com/boilercodes/angular/blob/main/.github/pull_request_template.md) templates.
 
 ### Other:
 
@@ -83,13 +83,13 @@ will change all the files to match your repository.
 
 ## Contributing
 
-See [CONTRIBUTING.md](https://github.com/rmenai-blueprints/angular/blob/main/CONTRIBUTING.md) for ways to get started.
+See [CONTRIBUTING.md](https://github.com/boilercodes/angular/blob/main/CONTRIBUTING.md) for ways to get started.
 
 <!-- LICENSE -->
 
 ## License
 
-Distributed under the MIT License. See [LICENSE](https://github.com/rmenai-blueprints/angular/blob/main/LICENSE) for more
+Distributed under the MIT License. See [LICENSE](https://github.com/boilercodes/angular/blob/main/LICENSE) for more
 information.
 
 <!-- CONTACT -->
