@@ -121,6 +121,7 @@
   "defaultProject": "angular-website",
   "cli": {
     "defaultCollection": "@angular-eslint/schematics",
-    "packageManager": "yarn"
+    "packageManager": "yarn",
+    "analytics": "03973d66-1e35-44a9-8138-13e14fe17530"
   }
 }
