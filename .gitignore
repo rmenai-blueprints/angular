@@ -11,25 +11,15 @@ npm-debug.log
 yarn-error.log
 
 # IDEs and editors
+.vscode/
+.idea/
 .project
 .classpath
 .c9/
 *.launch
 .settings/
 *.sublime-workspace
-
-# Visual Studio Code
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
 .history/*
-
-# WebStorm
-.idea/shelf/
-.idea/workspace.xml
-.idea/httpRequests/
 
 # Miscellaneous
 /.angular/cache
