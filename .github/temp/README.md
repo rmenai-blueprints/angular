@@ -1,7 +1,5 @@
 # [{title}][website] &middot; [![GitHub license]](./LICENSE) ![Test Action] ![Deploy Action]
 
-{description}.
-
 <!-- Table of Contents -->
 
 - [Installation](#installation)
