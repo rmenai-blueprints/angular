@@ -1,4 +1,4 @@
-# [{title}](./README.md) &middot; [![GitHub license]](./LICENSE) ![Test Action] ![Deploy Action]
+# [{title}][website] &middot; [![GitHub license]](./LICENSE) ![Test Action] ![Deploy Action]
 
 {description}.
 
@@ -48,6 +48,10 @@ Distributed under the MIT License. See [LICENSE](./LICENSE) for more information
 [karma]: https://karma-runner.github.io
 [eslint]: https://eslint.org
 [prettier]: https://prettier.io
+
+<!-- Repository links -->
+
+[website]: https://{author}.github.io/{name}/
 
 <!-- Shields.io links -->
 
