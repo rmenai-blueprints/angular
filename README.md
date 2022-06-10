@@ -1,7 +1,7 @@
 # [Angular Template][website] &middot; [![GitHub license]](./LICENSE) ![Test Action] ![Deploy Action]
 
 This is our fully-featured, simple to use template for new Angular projects. Not only it includes everything your need
-to get started, from the basics to the most advanced features, but also keeps everything organized through modern
+to get started, from the basics to the most advanced features, but it also keeps everything organized through modern coding
 conventions.
 
 By default, this template deploys a static build of the website to GitHub Pages, which you can check out [here][website].
